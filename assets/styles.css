@@ -29,6 +29,8 @@ body {
 }
 
 h1 {
+    color: var(--text-colour-purple);
+    text-align: center;
 }
 
 h2 {
@@ -65,6 +67,11 @@ pre {
   display: flex;
 }
 
+article p {
+    color: white;
+    text-align: center;
+}
+
 /******************************************/
 /* Class Selectors */
 /******************************************/
@@ -90,6 +97,7 @@ pre {
   position: relative;
   top: -48px;
   height: 115%;
+  font-family: var(--code-font-family);
 }
 
 .code-container {
