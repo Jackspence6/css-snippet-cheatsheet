@@ -12,27 +12,90 @@
     "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
     "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco,
     "Courier New", Courier, monospace;
+  --background-colour: #33393f;
 }
+
 /******************************************/
 /* Universal Selector */
 /******************************************/
 * {
 }
+
 /******************************************/
 /* Element Selectors */
 /******************************************/
+body {
+  background-color: var(--background-colour);
+}
+
 h1 {
 }
+
 h2 {
+  color: var(--text-colour-purple);
+  border-color: var(--gray-border-colour);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 3.5px;
+  background-color: var(--background-colour);
+  width: 90%;
+  position: relative;
+  left: 15px;
+  height: 30px;
+  top: -35px;
 }
-p {
+
+figure p {
+  display: flex;
+  color: var(--text-colour-purple);
+  width: 90%;
+  position: relative;
+  left: 20px;
+  top: -45px;
 }
+
+section pre {
+  background-image: var(--background-image-color);
+  border-radius: 10px;
+}
+
 pre {
+  color: white;
+  text-align: left;
+  display: flex;
 }
+
 /******************************************/
 /* Class Selectors */
 /******************************************/
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+.figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  outline-color: var(--gray-border-colour);
+  outline-style: dashed;
+  outline-offset: -8px;
+  padding: 5px;
+}
+
+.code {
+  align-items: center;
+  width: 90%;
+  position: relative;
+  top: -48px;
+  height: 115%;
+}
+
+.code-container {
+  display: flex;
+  justify-content: center;
+}
 /******************************************/
 /* ID Selectors */
 /******************************************/
