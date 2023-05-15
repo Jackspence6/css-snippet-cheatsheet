@@ -13,6 +13,9 @@
     "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco,
     "Courier New", Courier, monospace;
   --background-colour: #33393f;
+  --heading-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
 }
 
 /******************************************/
@@ -29,13 +32,16 @@ body {
 }
 
 h1 {
-    color: var(--text-colour-purple);
-    text-align: center;
+  color: var(--text-colour-purple);
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-size: 45px;
 }
 
 h2 {
   color: var(--text-colour-purple);
   border-color: var(--gray-border-colour);
+  font-family: var(--heading-font-family);
   border-radius: 10px;
   border-style: solid;
   border-width: 3.5px;
@@ -45,11 +51,14 @@ h2 {
   left: 15px;
   height: 30px;
   top: -35px;
+  text-align: center;
 }
 
 figure p {
   display: flex;
   color: var(--text-colour-purple);
+  font-family: var(--heading-font-family);
+  text-align: center;
   width: 90%;
   position: relative;
   left: 20px;
@@ -68,8 +77,13 @@ pre {
 }
 
 article p {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-size: 25px;
+  width: 75%;
+  margin-left: 225px;
+  margin-bottom: 2.5cm;
 }
 
 /******************************************/
@@ -96,6 +110,7 @@ article p {
   width: 90%;
   position: relative;
   top: -48px;
+  left: 18px;
   height: 115%;
   font-family: var(--code-font-family);
 }
