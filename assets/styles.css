@@ -1,7 +1,18 @@
 /******************************************/
 /* Variable Selectors */
 /******************************************/
-
+:root {
+  --background-image-color: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+  --text-colour-purple: #e866ec;
+  --gray-border-colour: #e0eae4;
+  --code-font-family: Consolas, "Andale Mono WT", "Andale Mono",
+    "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco,
+    "Courier New", Courier, monospace;
+}
 /******************************************/
 /* Universal Selector */
 /******************************************/
