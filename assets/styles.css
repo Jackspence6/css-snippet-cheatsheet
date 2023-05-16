@@ -125,6 +125,10 @@ article p {
 #row1 {
   flex-direction: row;
 }
+
+#row2 {
+  flex-direction: row;
+}
 /******************************************/
 /* Media queries */
 /******************************************/

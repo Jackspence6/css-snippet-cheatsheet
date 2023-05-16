@@ -21,6 +21,7 @@
     </article>
     <main>
       <!-- flexbox1 -->
+
       <section class="flex-container" id="row1">
         <figure class="figure">
           <h2>Flexbox Row</h2>
@@ -68,33 +69,63 @@
           </section>
         </figure>
       </section>
+
       <!-- flexbox4 -->
-      <section>
-        <figure>
-          <h2></h2>
-          <p></p>
-          <section>
-            <pre></pre>
+
+      <section class="flex-container" id="row2">
+        <figure class="figure">
+          <h2>Linear Gradients</h2>
+          <p>
+            This will create a backaround linear aradient from top to bottom.
+          </p>
+          <section class="code-container">
+            <pre class="code">
+ .linear-gradient-background {
+     background-image: linear-gradient (
+      rgba (232, 102, 236, 0.3) 0%.
+      rgba (232, 102, 236, 0.6) 100%.
+     );
+ }
+            </pre>
           </section>
         </figure>
 
         <!-- flexbox5 -->
 
-        <figure>
-          <h2></h2>
-          <p></p>
-          <section>
-            <pre></pre>
+        <figure class="figure">
+          <h2>Box Transition Glow</h2>
+          <p>Use transition and box shadows to glow on hover.</p>
+          <section class="code-container">
+            <pre class="code">
+ .code-card .card-header {
+     border-radius: 8px;
+     transition: all 0.5s ease-in-out;
+ }         
+ .code-card:hover,
+ .code-card:hover .card-header {
+     box-shadow: inset 0px 0px 8px 
+   rgba(232, 102, 236, 1), 0 0 15px 
+   rgba(232, 102, 236, 1);
+ }
+            </pre>
           </section>
         </figure>
 
         <!-- flexbox6 -->
 
-        <figure>
-          <h2></h2>
-          <p></p>
-          <section>
-            <pre></pre>
+        <figure class="figure">
+          <h2>Overlay Card with Title</h2>
+          <p>
+            Use position properties and negative margins to raise elements
+            higher than their natural starting point.
+          </p>
+          <section class="code-container">
+            <pre class="code">
+ .card-header {
+     position: relative;
+     margin-top: -20px;
+ }
+            </pre>
           </section>
         </figure>
       </section>
