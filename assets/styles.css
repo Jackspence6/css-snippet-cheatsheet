@@ -48,7 +48,7 @@ h2 {
   background-color: var(--background-colour);
   width: 90%;
   position: relative;
-  left: 15px;
+  left: 23px;
   height: 30px;
   top: -35px;
   text-align: center;
@@ -102,6 +102,7 @@ article p {
   outline-style: dashed;
   outline-offset: -8px;
   padding: 5px;
+  width: 30%;
 }
 
 .code {
@@ -115,13 +116,15 @@ article p {
 }
 
 .code-container {
-  display: flex;
-  justify-content: center;
+  height: 181.688px;
+  padding-bottom: 15px;
 }
 /******************************************/
 /* ID Selectors */
 /******************************************/
-
+#row1 {
+  flex-direction: row;
+}
 /******************************************/
 /* Media queries */
 /******************************************/
