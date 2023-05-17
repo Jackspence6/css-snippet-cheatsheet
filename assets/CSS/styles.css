@@ -75,7 +75,7 @@ figure p {
   color: var(--text-colour-purple);
   font-family: var(--heading-font-family);
   text-align: center;
-  width: 90%;
+  width: 80%;
   position: relative;
   left: 3rem;
   top: -3rem;
