@@ -147,26 +147,37 @@ article p {
 /******************************************/
 /* Media queries */
 /******************************************/
-/* @media screen and (max-width: 992px) {
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  
-  .figure {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    outline-color: var(--gray-border-colour);
-    outline-style: dashed;
-    outline-offset: 0rem;
-    padding: 0.12rem;
-    width: 50%%;
-  }
-  
-} */
+@media screen and (max-width: 992px) {
+ 
+h1 {
+font-size: 3rem;
+ }
+ 
+ article p {
+  font-size: 1rem;
+  width: 75%;
+  margin-left: 7rem;
+  margin-bottom: 3.5rem;
+ }
+
+ .flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: flex-start;
+ }
+
+ .figure {
+  width: 45%;
+  margin: 0%;
+  margin-bottom: 5rem;
+ }
+
+ figure p {
+  left: 2rem;
+}
+}
 
 /******************************************/
 /* Pseudo Classes and Elements */
