@@ -136,6 +136,7 @@ article p {
   height: 115%;
   font-family: var(--code-font-family);
   user-select: all;
+  overflow: auto;
 }
 
 .code-container {
