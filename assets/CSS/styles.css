@@ -147,6 +147,7 @@ article p {
 /******************************************/
 /* Media queries */
 /******************************************/
+/* Media Query for Tablets. */
 @media screen and (max-width: 992px) {
  
 h1 {
@@ -177,6 +178,16 @@ font-size: 3rem;
  figure p {
   left: 2rem;
 }
+}
+
+/* Media Query for Mobile Phone. */
+@media screen and (max-width: 768px) {
+
+  .figure {
+    width: 95%;
+    margin: 0%;
+    margin-bottom: 5rem;
+   }
 }
 
 /******************************************/
