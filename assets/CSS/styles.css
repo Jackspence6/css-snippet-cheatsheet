@@ -101,6 +101,8 @@ article p {
   display: flex;
   flex-direction: row;
   width: 100%;
+  justify-content: space-evenly;
+  align-content: flex-start;
 }
 
 .figure {
@@ -112,6 +114,8 @@ article p {
   outline-offset: 0rem;
   padding: 0.12rem;
   width: 30%;
+  margin: 0%;
+  margin-bottom: 3rem;
 }
 
 .code {
