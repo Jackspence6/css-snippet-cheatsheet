@@ -68,7 +68,7 @@ figure p {
   text-align: center;
   width: 90%;
   position: relative;
-  left: 3rem; 
+  left: 3rem;
   top: -3rem;
 }
 
@@ -135,13 +135,6 @@ article p {
 /******************************************/
 /* ID Selectors */
 /******************************************/
-#row1 {
-  flex-direction: row;
-}
-
-#row2 {
-  flex-direction: row;
-}
 /******************************************/
 /* Media queries */
 /******************************************/
@@ -165,3 +158,12 @@ article p {
   }
   
 } */
+
+/******************************************/
+/* Pseudo Classes and Elements */
+/******************************************/
+/* Glow effect when hovering over figures. */
+figure:hover,
+figure:hover h2 {
+  box-shadow: inset 2px 3px 12px var(--text-colour-purple);
+}
