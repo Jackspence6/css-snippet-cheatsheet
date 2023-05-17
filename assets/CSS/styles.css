@@ -22,8 +22,7 @@
 /******************************************/
 /* Universal Selector */
 /******************************************/
-* {
-}
+
 
 /******************************************/
 /* Element Selectors */
@@ -98,7 +97,7 @@ article p {
   text-align: center;
   font-family: var(--heading-font-family);
   font-size: 2rem;
-  width: 100%%;
+  width: 100%;
   margin-bottom: 3.5rem;
 }
 
