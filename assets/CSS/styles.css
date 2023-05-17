@@ -134,6 +134,7 @@ article p {
   left: 2rem;
   height: 115%;
   font-family: var(--code-font-family);
+  user-select: all;
 }
 
 .code-container {
