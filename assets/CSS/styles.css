@@ -61,6 +61,14 @@ h2 {
   text-align: center;
 }
 
+h3 {
+font-family: 'Courier New', Courier, monospace;
+font-size: 2rem;
+text-align: center;
+color: var(--text-colour-purple);
+margin-top: -1rem;
+}
+
 figure p {
   display: flex;
   color: var(--text-colour-purple);
