@@ -125,6 +125,7 @@ article p {
   width: 30%;
   margin: 0%;
   margin-bottom: 3rem;
+  transition: all 1s ease-in-out;
 }
 
 .code {
