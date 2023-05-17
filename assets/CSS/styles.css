@@ -98,8 +98,7 @@ article p {
   text-align: center;
   font-family: var(--heading-font-family);
   font-size: 2rem;
-  width: 75%;
-  margin-left: 16rem;
+  width: 100%%;
   margin-bottom: 3.5rem;
 }
 
@@ -121,7 +120,7 @@ article p {
   outline-color: var(--gray-border-colour);
   outline-style: dashed;
   outline-offset: 0rem;
-  padding: 0.12rem;
+  padding: auto;
   width: 30%;
   margin: 0%;
   margin-bottom: 3rem;
